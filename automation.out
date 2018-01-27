@@ -4079,3 +4079,19 @@
 2018-01-26 20:22:29 INFO  LoginPage:41 - Entered Password T3st@123 and object is [[ChromeDriver: chrome on WIN8 (7e523cdd48f857a00a8abbba00d1f1eb)] -> xpath: .//*[@id='Password']]
 2018-01-26 20:22:40 INFO  LoginPage:43 - clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='btnLogin']'
 2018-01-26 20:22:41 INFO  TestBase:183 - browser closed
+2018-01-27 16:35:23 INFO  TestBase:127 - creating object of chrome
+2018-01-27 16:35:39 INFO  TestBase:146 -  =====>Navigating to url<======= http://education-psychiatry-qc.astutetech.com/Admin
+2018-01-27 16:35:49 INFO  TC001_LoginWithValidCredentials:34 - <===========Starting Verify Login With Valid Credentials Test===========> 
+2018-01-27 16:35:50 INFO  LoginPage:39 - Entered emailaddress vikashgupta1 and object is [[ChromeDriver: chrome on WIN8_1 (96101d04443f5d5c6ca76948fd3f717b)] -> xpath: .//*[@id='UserName']]
+2018-01-27 16:35:50 INFO  LoginPage:41 - Entered Password T3st@123 and object is [[ChromeDriver: chrome on WIN8_1 (96101d04443f5d5c6ca76948fd3f717b)] -> xpath: .//*[@id='Password']]
+2018-01-27 16:36:00 INFO  LoginPage:43 - clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='btnLogin']'
+2018-01-27 16:36:00 INFO  TC001_LoginWithValidCredentials:39 - <===========Ended Verify Login With Valid Credentials Test===========> 
+2018-01-27 16:36:04 INFO  TestBase:183 - browser closed
+2018-01-27 16:48:46 INFO  TestBase:127 - creating object of chrome
+2018-01-27 16:48:51 INFO  TestBase:146 -  =====>Navigating to url<======= http://education-psychiatry-qc.astutetech.com/Admin
+2018-01-27 16:49:01 INFO  TC001_LoginWithValidCredentials:34 - <===========Starting Verify Login With Valid Credentials Test===========> 
+2018-01-27 16:49:01 INFO  LoginPage:39 - Entered emailaddress vikashgupta1 and object is [[ChromeDriver: chrome on WIN8_1 (8a45bff598fed0d839c717c96aa95e9d)] -> xpath: .//*[@id='UserName']]
+2018-01-27 16:49:01 INFO  LoginPage:41 - Entered Password T3st@123 and object is [[ChromeDriver: chrome on WIN8_1 (8a45bff598fed0d839c717c96aa95e9d)] -> xpath: .//*[@id='Password']]
+2018-01-27 16:49:10 INFO  LoginPage:43 - clicked on submit button and object is Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='btnLogin']'
+2018-01-27 16:49:10 INFO  TC001_LoginWithValidCredentials:39 - <===========Ended Verify Login With Valid Credentials Test===========> 
+2018-01-27 16:49:10 INFO  TestBase:183 - browser closed
