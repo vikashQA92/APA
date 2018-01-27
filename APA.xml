@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite">
+<listeners>
+<listener class-name="com.Servcorp.customListner.Listner"></listener>
+</listeners>
+<test name="LoginTest">
+<classes>
+<class name="com.Servcorp.HomePage.TC001_LoginWithValidCredentials"/>
+<class name="com.Servcorp.HomePage.TC002_VerifyLoginWithInvalidCredentials"/> 
+<class name="com.Servcorp.HomePage.TC003_AdminLoginFunctionality"/>
+<class name="com.Servcorp.SearchingInDirectory.TC004_SearchingOfUserOnBasisOfProfileFunctionality"/>
+<class name="com.Servcorp.SearchingInDirectory.TC005_SearchingOnBasisOfLocationName"/>
+<class name="com.Servcorp.SearchingInDirectory.TC006_DisplayProfileImages"/>
+<class name="com.Servcorp.SearchingInDirectory.TC007_LanguageDropdownSelection"/>
+<class name="com.Servcorp.SearchingInDirectory.TC008_VerifyingInfinityLoaderMessage"/>
+<class name="com.Servcorp.SearchingInDirectory.TC009_AdvancedSearchOnBasisOfProfile"/>
+<class name="com.Servcorp.SearchingInDirectory.TC010_AdvancedSearchUsingLocation"/>
+<class name="com.Servcorp.SearchingInDirectory.TC011_CreateUserProfile"/>
+ </classes>
+</test>
+</suite>

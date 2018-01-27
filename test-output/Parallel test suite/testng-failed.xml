@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <listeners>
+    <listener class-name="com.Servcorp.customListner.Listner"/>
+  </listeners>
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.Servcorp.SearchingInDirectory.TC009_AdvancedSearchOnBasisOfProfile">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="advancd_searching_user_on_basis_of_profile"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC009_AdvancedSearchOnBasisOfProfile -->
+      <class name="com.Servcorp.SearchingInDirectory.TC011_CreateUserProfile">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC011_CreateUserProfile -->
+      <class name="com.Servcorp.SearchingInDirectory.TC007_LanguageDropdownSelection">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC007_LanguageDropdownSelection -->
+      <class name="com.Servcorp.HomePage.TC002_VerifyLoginWithInvalidCredentials">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Servcorp.HomePage.TC002_VerifyLoginWithInvalidCredentials -->
+      <class name="com.Servcorp.SearchingInDirectory.TC010_AdvancedSearchUsingLocation">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC010_AdvancedSearchUsingLocation -->
+      <class name="com.Servcorp.HomePage.TC001_LoginWithValidCredentials">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Servcorp.HomePage.TC001_LoginWithValidCredentials -->
+      <class name="com.Servcorp.SearchingInDirectory.TC005_SearchingOnBasisOfLocationName">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC005_SearchingOnBasisOfLocationName -->
+      <class name="com.Servcorp.SearchingInDirectory.TC008_VerifyingInfinityLoaderMessage">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="verify_infity_loader_message"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC008_VerifyingInfinityLoaderMessage -->
+      <class name="com.Servcorp.HomePage.TC003_AdminLoginFunctionality">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Servcorp.HomePage.TC003_AdminLoginFunctionality -->
+      <class name="com.Servcorp.SearchingInDirectory.TC004_SearchingOfUserOnBasisOfProfileFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC004_SearchingOfUserOnBasisOfProfileFunctionality -->
+      <class name="com.Servcorp.SearchingInDirectory.TC006_DisplayProfileImages">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.Servcorp.SearchingInDirectory.TC006_DisplayProfileImages -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
