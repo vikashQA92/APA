@@ -2,8 +2,8 @@ package com.CreateActivity;
 
 public class CreateAct {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Test
+	public void TestCase {
 		System.out.println("Hello vikas");
 
 	}
