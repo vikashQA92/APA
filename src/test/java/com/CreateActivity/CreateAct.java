@@ -3,7 +3,7 @@ package com.CreateActivity;
 public class CreateAct {
 
 	@Test
-	public void TestCase {
+	public void TestCase() {
 		System.out.println("Hello vikas");
 
 	}
